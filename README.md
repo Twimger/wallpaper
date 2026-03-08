@@ -1,48 +1,48 @@
-# wallpaper
+# wallpaper mp3
 
-楽曲追加支援ツールを作成しました！ ！
+=========================================================
+Music Addition Support Tool Created!!
+=========================================================
 
-
-このツールは、[16:9] 超かぐや姫 All-in-Oneの壁紙に、
-自分の好きなMP3ファイルを全自動追加するためのツールです。
+This tool is designed to fully automate the process of adding your favorite MP3 files to the "[16:9] Cosmic Princess Kaguya All-in-One" wallpaper.
 
 ---------------------------------------------------------
-💡 使い方
+💡 How to Use
 ---------------------------------------------------------
 
-【STEP 1】 MP3の準備
-追加したい曲（.mp3）を、パソコン内のわかりやすいフォルダにまとめておきます。
+[STEP 1] Prepare your MP3s
+Gather the songs (.mp3) you want to add into an easy-to-find folder on your PC.
 
-※注意※
-本ツールは「yt-dlp」等を使用して、あらかじめ【サムネイル画像が埋め込まれた状態のMP3を用意していることを前提としています。
-（サムネイルが埋め込まれていないファイルの場合、壁紙上ではデフォルトの画像が表示されます）
+*Note*
+This tool assumes you have prepared MP3s with embedded thumbnail images in advance, using tools like "yt-dlp".
+(If a file does not have an embedded thumbnail, a default image will be displayed on the wallpaper.)
 yt-dlp.exe -x --audio-format mp3 --audio-quality 0 --embed-thumbnail --add-metadata "URL"
 
+[STEP 2] Launch the Tool
+Download, install, and launch this tool (wallpaper.exe).
+https://github.com/Twimger/wallpaper/releases
 
-【STEP 2】 ツールの起動
-本ツール（アプリ）を起動します。
+[STEP 3] Specify Folders
+Follow the on-screen instructions to specify two folders.
+Click the "Browse..." button to select them.
 
-【STEP 3】 フォルダの指定
-画面の指示に従って、2つのフォルダを指定します。
-「参照...」ボタンを押して選択してください。
+1. The folder containing your MP3s:
+   Select the folder you prepared in Step 1.
 
-1. MP3が入っているフォルダ:
-   ステップ1で用意したフォルダを選びます。
+2. The Wallpaper Engine wallpaper folder:
+   Specify the target wallpaper folder.
+   It is usually located in one of the following paths. You can simply copy and paste them:
 
-2. Wallpaper Engineの壁紙フォルダ:
-   対象となる壁紙のフォルダを指定します。
-   通常は以下のどちらかにあります。そのままコピーして貼り付けてもOKです。
-
-   ▶ CドライブにSteamを入れている場合：
+   ▶ If Steam is installed on your C drive:
    C:\Program Files (x86)\Steam\steamapps\workshop\content\431960\3679122549
 
-   ▶ DドライブにSteamを入れている場合：
+   ▶ If Steam is installed on your D drive:
    D:\SteamLibrary\steamapps\workshop\content\431960\3679122549
 
-【STEP 4】 処理の開始
-「🚀 処理を開始する」ボタンを押します。
-ログ画面に進行状況が表示され、「完了」のポップアップが出たら成功です！
+[STEP 4] Start Processing
+Click the "🚀 Start Processing" button.
+The progress will be displayed in the log screen. When the "Complete" popup appears, you're done!
 
-【ステップ 5】 壁紙の更新
-Wallpaper Engineを開き、対象の壁紙を選んでリロード（または別の壁紙に変えてから戻す）してください。
-追加した曲がリストに表示され、再生できるようになります！
+[STEP 5] Refresh the Wallpaper
+Open Wallpaper Engine, select the target wallpaper, and reload it (or switch to another wallpaper and then switch back).
+Your added songs will now appear in the list and be ready to play!
