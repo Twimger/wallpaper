@@ -1,8 +1,8 @@
 # wallpaper mp3
 
-=========================================================
+
 Music Addition Support Tool Created!!
-=========================================================
+
 
 This tool is designed to fully automate the process of adding your favorite MP3 files to the "[16:9] Cosmic Princess Kaguya All-in-One" wallpaper.
 
